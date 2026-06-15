@@ -1,0 +1,18 @@
+[project]
+name = "ai201-project2-fitfindr"
+version = "0.1.0"
+requires-python = ">=3.14.5"
+dependencies = [
+    "gradio>=6.18.0",
+    "groq>=1.4.0",
+    "pytest>=9.1.0",
+    "python-dotenv>=1.2.2",
+]
+
+[tool.uv]
+python-preference = "only-managed"
+
+[dependency-groups]
+dev = [
+    "ruff>=0.15.17",
+]
